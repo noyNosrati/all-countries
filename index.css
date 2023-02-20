@@ -1,0 +1,111 @@
+body{
+    color: black;
+}
+header{
+    min-height: 48px;
+    background: rgba(0, 0, 0, 0.868);
+
+    
+}
+header .container{
+max-width: 1200px;
+}
+
+
+header .logo{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2em;
+    color: bisque;
+  
+}
+header .logo i{
+    transition: 400ms;
+}
+header .logo i:hover{
+    transform: rotate(360deg);
+
+}
+header nav ul li a{
+    text-decoration: none;
+    padding: 12px;
+    font-size: 1.2em;
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+header nav ul li a:hover{
+    color: rgb(188, 175, 144);
+
+}
+main{
+    min-height: 1200px;
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+main .container{
+   max-width: 1024px;
+}
+
+main .row .main_div,.div_map{
+    background-image: url(images/headerbg.jpg);
+    background-size: cover; 
+    min-height: 1000px; 
+    box-shadow: 5px 5px 15px 5px #000000; 
+    border-radius: 24px;
+}
+
+main h4{
+    padding: 12px;
+}
+ 
+main a{
+    color: rgb(109, 109, 165);
+   
+}
+main a:hover{
+    color: red;
+}
+footer{
+    min-height: 130px;
+    background: rgb(57, 55, 55);
+    color: #ffffff;
+
+}
+@media(max-width:992px){
+  
+      
+      #nav_open.show {
+        height: 300px;
+      }
+ 
+    header .row nav{
+        position: absolute;
+        top: 170px;
+        right: 0;
+        background: rgba(0, 0, 0, 0.838);
+        border-radius: 0 0 24px 24px;
+        text-align: center;
+        max-width: 200px;
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+        transition: 0.3s ease-in-out;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    
+    }
+    header nav ul a{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        min-height: 50px;
+        /* border: 1px solid #000000; */
+    }
+   
+    
+}

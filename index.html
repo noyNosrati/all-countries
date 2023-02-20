@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>All Countries</title>
+
+    <script type="module" defer src="js_countries/appCountries.js"></script>
+</head>
+
+<body class="text-center">
+    <header class="container-fluid p-4">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <a href="?search=Israel" class="logo col-12 col-lg-3 p-3"><i class="fa fa-ravelry" aria-hidden="true"></i>
+                    All Countries</a>
+
+                <nav id="nav_open" class="col-auto d-lg-block">
+                    <ul class="list-inline d-lg-flex m-0">
+                        <li><a href="?search=Israel"> Israel </a></li>
+                        <li><a href="?search=USA"> USA </a></li>
+                        <li><a href="?search=France"> France </a></li>
+                        <li><a href="?search=Spain"> Spain </a></li>
+                        <li><a href="?search=Thailand"> Thailand</a></li>
+                    </ul>
+                </nav>
+                <div class="d-flex col-8 col-lg-3">
+                    <input id="id_input" class="form-control" type="search"
+                        placeholder="search for countries...">
+                        <button id="search_btn" class="btn btn-light p-2">search</button>
+                </div>
+                <div id="burger_btn" class="burger col-auto d-lg-none display-6 text-light">
+                    <i class="fa fa-bars h1" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <main class="container-fluid pt-5 pb-5">
+        <div class="container">
+            <div id="id_parent" class=" row justify-content-md-between">
+
+
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer class="container-fluid">
+        <div class="container">
+            <div class="float-start pt-5">
+                Fullstack Web Developer © Noy Nosrati 2023
+
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
